@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/dword-design/fp.macro/compare/v1.0.0...v1.0.1) (2021-03-14)
+
+
+### Bug Fixes
+
+* fix mapValues ([c095983](https://github.com/dword-design/fp.macro/commit/c09598381952c39687fcee634616c14acca21ddd))
+
 # 1.0.0 (2021-03-14)
 
 
