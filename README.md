@@ -46,8 +46,12 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-A zero-runtime functional programming babel macro.
+A zero-runtime functional programming library as a babel macro.
 <!-- /DESCRIPTION -->
+
+`fp.macro` This is a build-time functional programming library that allows you to use high-level collection functions without a production dependency and without the runtime penalty that you have when using a dedicated library.
+
+It does so by exposing a [Babel](https://babeljs.io/) macro that is evaluated at build time by [babel-plugin-macros]((https://github.com/kentcdodds/babel-plugin-macros). So in the end you do not have a production dependency anymore, it's all in the generated Babel code.
 
 <!-- INSTALL/ -->
 ## Install
@@ -60,6 +64,61 @@ $ npm install fp.macro
 $ yarn add fp.macro
 ```
 <!-- /INSTALL -->
+
+## Usage
+
+Install `babel-plugin-macros`:
+
+```bash
+$ npm install babel-plugin-macros
+```
+
+The plugin is best used with the [Babel pipeline operator](https://babel.dev/docs/en/babel-plugin-proposal-pipeline-operator), so optionally install this one as well:
+
+```bash
+$ npm install @babel/plugin-proposal-pipeline-operator
+```
+
+Then add the plugins to your babel config or create a `.babelrc.json` file:
+
+```json
+{
+  "plugins": [
+    "babel-plugin-macros",
+    ["@babel/plugin-proposal-pipeline-operator", { "proposal": "fsharp" }]
+  ]
+}
+```
+
+Create a JavaScript file and start mapping collections:
+
+```js
+import { filter, join, map, mapValues } from 'fp.macro'
+
+const myMap = map(x => x * 2)
+
+console.log(myMap([1, 2]))
+// [2, 4]
+
+// Using pipeline operator
+console.log(
+  [1, 2, 3]
+    |> map(x => x * 2)
+    |> filter(x => x > 2)
+    |> join(',')
+)
+// 4,6
+
+console.log(
+  { foo: { name: 'foo' }, bar: { name: 'bar' } }
+    |> mapValues(x => x.name)
+)
+// { foo: 'foo', bar: 'bar' }
+```
+
+To run the files, you need to use Babel. You can either compile them using [@babel/cli](https://babel.dev/docs/en/babel-cli), or run them directly via [@babel/node](https://babel.dev/docs/en/babel-node) (which is not recommended for production though).
+
+The library is currently in development, so for more insights into the available functions check out the source code.
 
 <!-- LICENSE/ -->
 ## Support Me
