@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/dword-design/fp.macro/compare/v1.0.3...v1.0.4) (2021-03-14)
+
+
+### Bug Fixes
+
+* fix flatten ([069264e](https://github.com/dword-design/fp.macro/commit/069264eb9692686dfc78d7c4f06b42b67af50010))
+
 ## [1.0.3](https://github.com/dword-design/fp.macro/compare/v1.0.2...v1.0.3) (2021-03-14)
 
 
