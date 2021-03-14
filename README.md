@@ -9,19 +9,19 @@
         src="https://img.shields.io/npm/v/undefined.svg"
         alt="npm version"
       >
-    </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/undefined/actions">
+    </a><img src="https://img.shields.io/badge/os-linux%20%7C%C2%A0macos%20%7C%C2%A0windows-blue" alt="Linux macOS Windows compatible"><a href="https://github.com/dword-design/fp.macro/actions">
       <img
-        src="https://github.com/undefined/workflows/build/badge.svg"
+        src="https://github.com/dword-design/fp.macro/workflows/build/badge.svg"
         alt="Build status"
       >
-    </a><a href="https://codecov.io/gh/undefined">
+    </a><a href="https://codecov.io/gh/dword-design/fp.macro">
       <img
-        src="https://codecov.io/gh/undefined/branch/master/graph/badge.svg"
+        src="https://codecov.io/gh/dword-design/fp.macro/branch/master/graph/badge.svg"
         alt="Coverage status"
       >
-    </a><a href="https://david-dm.org/undefined">
-      <img src="https://img.shields.io/david/undefined" alt="Dependency status">
-    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/undefined">
+    </a><a href="https://david-dm.org/dword-design/fp.macro">
+      <img src="https://img.shields.io/david/dword-design/fp.macro" alt="Dependency status">
+    </a><img src="https://img.shields.io/badge/renovate-enabled-brightgreen" alt="Renovate enabled"><br/><a href="https://gitpod.io/#https://github.com/dword-design/fp.macro">
       <img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod">
     </a><a href="https://www.buymeacoffee.com/dword">
       <img
