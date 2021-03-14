@@ -32,6 +32,7 @@ export default (reference, t) =>
               ),
             ])
           ),
+          t.objectExpression([]),
         ]
       )
     )

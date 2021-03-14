@@ -13,7 +13,7 @@ export default tester(
       to: endent`
           x => Object.entries(x).reduce((object, entry) => ({ ...object,
             [entry[0]]: (x => x.name)(entry[1])
-          }));
+          }), {});
         `,
     },
   ],
