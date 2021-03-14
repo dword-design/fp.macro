@@ -51,7 +51,7 @@ A zero-runtime functional programming babel macro.
 
 `fp.macro` This is a build-time functional programming library that allows you to use high-level collection functions without a production dependency and without the runtime penalty that you have when using a dedicated library.
 
-It does so by exposing a [Babel](https://babeljs.io/) macro that is evaluated at build time by [babel-plugin-macros]((https://github.com/kentcdodds/babel-plugin-macros). So in the end you do not have a production dependency anymore, it's all in the generated Babel code.
+It does so by exposing a [Babel](https://babeljs.io/) macro that is evaluated at build time by [babel-plugin-macros](https://github.com/kentcdodds/babel-plugin-macros). So in the end you do not have a production dependency anymore, it's all in the generated Babel code.
 
 <!-- INSTALL/ -->
 ## Install
