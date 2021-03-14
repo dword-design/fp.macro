@@ -10,7 +10,7 @@ export default tester(
 
       flatten
     `,
-      to: 'x => x.flatten();',
+      to: 'x => x.flat();',
     },
   ],
   [testerPluginBabelPlugin({ plugins: ['babel-plugin-macros'] })]

@@ -3,7 +3,7 @@ export default (reference, t) =>
     t.arrowFunctionExpression(
       [t.identifier('x')],
       t.callExpression(
-        t.memberExpression(t.identifier('x'), t.identifier('flatten')),
+        t.memberExpression(t.identifier('x'), t.identifier('flat')),
         []
       )
     )
