@@ -46,7 +46,7 @@
 <!-- /BADGES -->
 
 <!-- DESCRIPTION/ -->
-A zero-runtime functional programming library as a babel macro.
+A zero-runtime functional programming babel macro.
 <!-- /DESCRIPTION -->
 
 `fp.macro` This is a build-time functional programming library that allows you to use high-level collection functions without a production dependency and without the runtime penalty that you have when using a dedicated library.
