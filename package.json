@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@dword-design.de>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "check-unknown-files": "base check-unknown-files",
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test"
+  },
+  "dependencies": {
+    "@dword-design/functions": "^1.2.1",
+    "babel-plugin-macros": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@dword-design/base": "^7.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
