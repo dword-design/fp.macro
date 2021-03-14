@@ -16,11 +16,16 @@ export default (reference, t) =>
             t.objectExpression([
               t.spreadElement(t.identifier('object')),
               t.objectProperty(
-                t.memberExpression(t.identifier('entry'), t.identifier('key')),
+                t.memberExpression(
+                  t.identifier('entry'),
+                  t.numericLiteral(0),
+                  true
+                ),
                 t.callExpression(reference.parentPath.node.arguments[0], [
                   t.memberExpression(
                     t.identifier('entry'),
-                    t.identifier('value')
+                    t.numericLiteral(1),
+                    true
                   ),
                 ]),
                 true
