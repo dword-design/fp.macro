@@ -6,11 +6,19 @@ export default tester(
   [
     {
       from: endent`
-      const { map } = require('./src/index.macro')
+      const { sort } = require('./src/index.macro')
 
-      map(x => x * 2)
+      sort
     `,
-      to: 'x => x.map(x => x * 2);',
+      to: 'x => [...x].sort();',
+    },
+    {
+      from: endent`
+      const { sort } = require('./src/index.macro')
+
+      sort(y => y.name)
+    `,
+      to: 'x => [...x].sort(y => y.name);',
     },
   ],
   [testerPluginBabelPlugin({ plugins: ['babel-plugin-macros'] })]

@@ -1,6 +1,8 @@
 {
+  "name": "fp.macro",
   "version": "1.0.0",
-  "description": "",
+  "description": "A zero-runtime functional programming babel macro.",
+  "repository": "dword-design/fp.macro",
   "license": "MIT",
   "author": "Sebastian Landwehr <info@dword-design.de>",
   "main": "dist/index.js",
@@ -21,8 +23,9 @@
     "babel-plugin-macros": "^3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@dword-design/base": "^7.6.0"
+    "@dword-design/base": "^7.6.0",
+    "@dword-design/tester": "^1.2.0",
+    "@dword-design/tester-plugin-babel-plugin": "^1.0.0"
   },
   "publishConfig": {
     "access": "public"

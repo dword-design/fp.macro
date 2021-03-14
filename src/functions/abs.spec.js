@@ -6,11 +6,11 @@ export default tester(
   [
     {
       from: endent`
-      const { map } = require('./src/index.macro')
+      const { abs } = require('./src/index.macro')
 
-      map(x => x * 2)
+      abs
     `,
-      to: 'x => x.map(x => x * 2);',
+      to: 'Math.abs;',
     },
   ],
   [testerPluginBabelPlugin({ plugins: ['babel-plugin-macros'] })]

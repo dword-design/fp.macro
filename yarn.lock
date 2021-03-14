@@ -1161,7 +1161,7 @@
     "@dword-design/functions" "^1.1.2"
     babel-plugin-module-resolver "^4.0.0"
 
-"@dword-design/functions@^1.1.2", "@dword-design/functions@^1.2.0", "@dword-design/functions@^1.2.1":
+"@dword-design/functions@^1.1.2", "@dword-design/functions@^1.1.4", "@dword-design/functions@^1.2.0", "@dword-design/functions@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@dword-design/functions/-/functions-1.2.1.tgz#40e3cb84101791194adf1cfb5ef19419f06e8d1e"
   integrity sha512-3ArqLC2nGy1Zb9izQW6RDR2nwgaxdr24xMm2XJVUNm7eKWVfj1zv5xuXTHSvba6QwCaIsPi8iNsUoEQa2n11Vw==
@@ -1178,6 +1178,22 @@
     endent dword-design/endent#fork
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
+
+"@dword-design/tester-plugin-babel-plugin@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-babel-plugin/-/tester-plugin-babel-plugin-1.0.0.tgz#ff8ddf62b813524000651bc73a46f264f227cf6a"
+  integrity sha512-iyYSLSmrMbawTb6YwoRWOPztaWDXzMq3R9Oumk2fOxppNEqdXQ62BE4i8UlQyfRKfaE4710d4FH9lu/MQdbl/Q==
+  dependencies:
+    "@babel/core" "^7.13.10"
+    "@dword-design/functions" "^1.2.1"
+
+"@dword-design/tester@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester/-/tester-1.2.0.tgz#f51c4dc68a8ae8bbdf6178a0210be4a1fd44298f"
+  integrity sha512-zfgFkH8Khoa+Qpj0W41X829vEKEn76uULHvA575YLF0tiOYMT/SPHY6yVuFzQ12J3qGcdkXvGqYDOWx/8xiA2g==
+  dependencies:
+    "@dword-design/functions" "^1.1.4"
+    promise-sequential "^1.1.1"
 
 "@eslint/eslintrc@^0.4.0":
   version "0.4.0"
@@ -7654,6 +7670,11 @@ promise-retry@^1.1.1:
   dependencies:
     err-code "^1.0.0"
     retry "^0.10.0"
+
+promise-sequential@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/promise-sequential/-/promise-sequential-1.1.1.tgz#f79e8950ef86e7a7a85bf320452643592f6d2fb2"
+  integrity sha1-956JUO+G56eoW/MgRSZDWS9tL7I=
 
 promzard@^0.3.0:
   version "0.3.0"
