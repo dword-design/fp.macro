@@ -121,11 +121,11 @@ To run the files, you need to use Babel. You can either compile them using [@bab
 The library is currently in development, so for more insights into the available functions check out the source code.
 
 <!-- LICENSE/ -->
-## Contributing
+## Contribute
 
 Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/fp.macro/issues) or [pull request](https://github.com/dword-design/fp.macro/pulls)! ⚙️
 
-## Support Me
+## Support
 
 Hey, I am Sebastian Landwehr, a freelance web developer, and I love developing web apps and open source packages. If you want to support me so that I can keep packages up to date and build more helpful tools, you can donate here:
 
