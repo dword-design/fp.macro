@@ -123,7 +123,7 @@ The library is currently in development, so for more insights into the available
 <!-- LICENSE/ -->
 ## Contribute
 
-Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/fp.macro/issues) or [pull request](https://github.com/dword-design/fp.macro/pulls)! ⚙️
+Are you missing something or want to contribute? Feel free to file an [issue](https://github.com/dword-design/fp.macro/issues) or a [pull request](https://github.com/dword-design/fp.macro/pulls)! ⚙️
 
 ## Support
 
