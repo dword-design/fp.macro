@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/dword-design/fp.macro/compare/v1.0.6...v1.0.7) (2021-04-05)
+
+
+### Bug Fixes
+
+* lock file maintenance ([#6](https://github.com/dword-design/fp.macro/issues/6)) ([41814ab](https://github.com/dword-design/fp.macro/commit/41814ab08106abfaf8aa8b5e674e3808c598d119))
+
 ## [1.0.6](https://github.com/dword-design/fp.macro/compare/v1.0.5...v1.0.6) (2021-03-23)
 
 
