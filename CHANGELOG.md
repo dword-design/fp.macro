@@ -1,3 +1,10 @@
+## [1.0.9](https://github.com/dword-design/fp.macro/compare/v1.0.8...v1.0.9) (2021-04-17)
+
+
+### Bug Fixes
+
+* update keywords ([e67668a](https://github.com/dword-design/fp.macro/commit/e67668ad551617b84aa2d9724e01d46e65802549))
+
 ## [1.0.8](https://github.com/dword-design/fp.macro/compare/v1.0.7...v1.0.8) (2021-04-12)
 
 
