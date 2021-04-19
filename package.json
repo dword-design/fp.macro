@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "@dword-design/base": "^7.6.0",
-    "@dword-design/tester": "^1.2.0",
+    "@dword-design/tester": "^1.2.4",
     "@dword-design/tester-plugin-babel-plugin": "^1.0.0"
   },
   "publishConfig": {
