@@ -1,3 +1,19 @@
+# [2.0.0](https://github.com/dword-design/fp.macro/compare/v1.0.9...v2.0.0) (2021-05-03)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/base to v8 ([#16](https://github.com/dword-design/fp.macro/issues/16)) ([83ce452](https://github.com/dword-design/fp.macro/commit/83ce452ef1576311abcc10dc0d764fa022deacbc))
+
+
+### BREAKING CHANGES
+
+* require Node.js >= 12
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+Co-authored-by: Sebastian Landwehr <info@dword-design.de>
+Co-authored-by: GitHub Actions <actions@github.com>
+
 ## [1.0.9](https://github.com/dword-design/fp.macro/compare/v1.0.8...v1.0.9) (2021-04-17)
 
 
