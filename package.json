@@ -66,6 +66,9 @@
     "@dword-design/tester": "^1.2.0",
     "@dword-design/tester-plugin-babel-plugin": "^1.0.0"
   },
+  "engines": {
+    "node": ">=12"
+  },
   "publishConfig": {
     "access": "public"
   }
