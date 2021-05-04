@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/dword-design/fp.macro/compare/v2.0.2...v2.0.3) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester to v2 ([#18](https://github.com/dword-design/fp.macro/issues/18)) ([e7f1ae9](https://github.com/dword-design/fp.macro/commit/e7f1ae985ddfb0636cbbd9ee3d6235bf2219c3fa))
+
 ## [2.0.2](https://github.com/dword-design/fp.macro/compare/v2.0.1...v2.0.2) (2021-05-04)
 
 
