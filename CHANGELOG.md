@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/dword-design/fp.macro/compare/v2.0.1...v2.0.2) (2021-05-04)
+
+
+### Bug Fixes
+
+* update dependency @dword-design/tester-plugin-babel-plugin to v2 ([#19](https://github.com/dword-design/fp.macro/issues/19)) ([6010295](https://github.com/dword-design/fp.macro/commit/60102950ac7bf27d4192610e85ef91648a5cb045))
+
 ## [2.0.1](https://github.com/dword-design/fp.macro/compare/v2.0.0...v2.0.1) (2021-05-04)
 
 
