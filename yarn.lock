@@ -1263,10 +1263,10 @@
     lodash "^4.17.15"
     tinycolor2 "^1.4.1"
 
-"@dword-design/tester-plugin-babel-plugin@^1.0.0":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-babel-plugin/-/tester-plugin-babel-plugin-1.0.8.tgz#1224c72ee67092adec8633bfb967136886cb64c2"
-  integrity sha512-MjbtGKiLyw8f+ebcQzIYW6eo5gRwc5FmpGMxiIlFbdEfKh5Rqhb30CdiBpn0YNOcmeJ9gloyjDu6JnXPL5M2Ow==
+"@dword-design/tester-plugin-babel-plugin@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@dword-design/tester-plugin-babel-plugin/-/tester-plugin-babel-plugin-2.0.0.tgz#2943e021a67efd85bfb07b13d4ad4b0bee88fb3b"
+  integrity sha512-ZZtKsZm1f3i3FNe5jXga49v9b3Sznyh1f3ZMDqCrdXRKagkZMzKoFOJ3ZCtyd8ltZda5hPIHMQYSIcxWQ+mNZg==
   dependencies:
     "@babel/core" "^7.13.10"
     "@dword-design/functions" "^3.0.0"
