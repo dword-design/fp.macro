@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/dword-design/fp.macro/compare/v2.0.4...v2.0.5) (2021-06-14)
+
+
+### Bug Fixes
+
+* update config files ([770c199](https://github.com/dword-design/fp.macro/commit/770c19996ce05b46ad343cfda649bbd820dea9a8))
+
 ## [2.0.4](https://github.com/dword-design/fp.macro/compare/v2.0.3...v2.0.4) (2021-05-28)
 
 
