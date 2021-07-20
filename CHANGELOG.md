@@ -1,3 +1,11 @@
+## [2.0.7](https://github.com/dword-design/fp.macro/compare/v2.0.6...v2.0.7) (2021-07-20)
+
+
+### Bug Fixes
+
+* replace forEach with for of ([795ff4c](https://github.com/dword-design/fp.macro/commit/795ff4c1726466f2e4c2fcb1a1e35aafd1ed76c0))
+* update config files ([f6d21d5](https://github.com/dword-design/fp.macro/commit/f6d21d529c61caea766a281fe8e6278736faff69))
+
 ## [2.0.6](https://github.com/dword-design/fp.macro/compare/v2.0.5...v2.0.6) (2021-07-06)
 
 
