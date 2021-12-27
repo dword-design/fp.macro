@@ -3,7 +3,7 @@
 <!-- /TITLE -->
 
 <!-- BADGES/ -->
-  <p>
+<p>
     <a href="https://npmjs.org/package/fp.macro">
       <img
         src="https://img.shields.io/npm/v/fp.macro.svg"
